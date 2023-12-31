@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Get Info",
+  "description": "Get info on objects using search engine",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "hello_img.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "content-scripts.js"
+      ],
+      "matches": [
+        "https://*.google.com/*"
+      ]
+    }
+  ]
+}
