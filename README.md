@@ -14,3 +14,13 @@ results: [
         description: "Hideo Kojima is a Japanese video game designer. He is regarded  ...",
       }
       ...
+
+The code is stored in `./scripts/main.js`
+
+This is then build using esbuild into `content-scripts.js`
+
+```sh 
+esbuild ./scripts/content.js --bundle --outfile=content-scripts.js ;
+```
+
+Results can be seen through inspect view for google serach results webpage
