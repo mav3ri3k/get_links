@@ -6,7 +6,7 @@ Upon entering a google query, the results can be easily accessed in the followin
 ## Search Results
 Search results are provided as a json in the following format
 
-```json
+```js
 results: [
       {
         title: "Hideo Kojima",
