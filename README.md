@@ -14,4 +14,3 @@ results: [
         description: "Hideo Kojima is a Japanese video game designer. He is regarded  ...",
       }
       ...
-``
